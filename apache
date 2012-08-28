@@ -1,0 +1,16 @@
+             pache installtion
+download apache2.0 : httpd-2.2.22.tar.gz
+1.unzip httpd-2.2.22.tar.gz to /httpd-2.2.22 
+2.œøÈë~/httpd-2.2.22, excute
+#./configure --prefix=/usr/local/apache2 --enable-module=so
+#make
+#make install
+3.apache
+start£ºsudo /usr/local/apache2/bin/httpd -k start
+httpd: Could not determine the server's fully qualified domain name, using 127.0.0.1 for ServerName. 
+add: ServerName localhost:80 
+stop£ºsudo /usr/local/apache2/bin/httpd -k stop
+4. 
+1). cp /usr/local/apache2/bin/apachectl /etc/init.d
+2).   
+sudo update-rc.d apachectl defaults
