@@ -1,0 +1,15 @@
+            glassfish installtion
+mkdir /opt/glassfish
+cd /opt/glassfish
+/opt/glassfish/glassfish-3.1.2.2-unix/bin/asadmin start-domain
+/opt/glassfish/glassfish-3.1.2.2-unix/bin/asadmin create-domain --adminport 8484 --instanceport 8080 --savemasterpassword=true astro_domain1
+Enter admin user name[Enter to accept default]>webobjects
+Enter admin password>webobjects0
+Enter admin password again>webobjects0
+Using port 8484 for Admin.
+Default port 8080 for HTTP Instance is in use. Using 8080
+Using default port 7676 for JMS.
+Using default port 3700 for IIOP.
+Using default port 8181 for HTTP_SSL.
+Using default port 3820 for IIOP_SSL.
+Using default port 3920 for IIOP_MUTUALAUTH.
