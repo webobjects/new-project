@@ -1,0 +1,22 @@
+            jboss installtion
+centos 6.3
+jboss-as-7.1.1.Final.zip
+a.jdk
+[root@mysqlnode2 ~]# java -version
+java version "1.6.0_24"
+Java(TM) SE Runtime Environment (build 1.7.0_05-b05)
+Java HotSpot(TM) Client VM (build 23.1-b03, mixed mode, sharing)
+b.jboss
+[root@mysqlnode2 ~]# unzip jboss-as-7.1.1.Final.zip                               
+root@mysqlnode2 jboss-as-7.1.1.Final]# /root/jboss-as-7.1.1.Final/bin/add-user.sh
+
+What type of user do you wish to add?
+a) Management User (mgmt-users.properties)
+b) Application User (application-users.properties)
+(a): a
+Enter the details of the new user to add.
+Realm (ManagementRealm) :webobjects
+Username :webobjects0
+Password :webobjects0
+
+Re-enter Password :webobjects0
